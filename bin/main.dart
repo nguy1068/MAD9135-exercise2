@@ -4,7 +4,6 @@ import 'package:exercise2_mad9135/utils.dart';
 
 void main(List<String> arguments) {
   for (var i = 0; i < arguments.length; i++) {
-
     //upper first letter
     var upperTextArg = capitalizeFirstLetter(arguments[i]);
 
@@ -14,6 +13,5 @@ void main(List<String> arguments) {
 
     //print message
     print('Hello $upperTextArg, your lucky number is ${lucky.getRandomInt()}');
-
   }
 }
